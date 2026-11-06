@@ -2,4 +2,4 @@
 for number in range(97, 123):
     if number == 101 or number == 113:
         continue
-    print(f"{chr(number)}", end="")
+    print("{}".format(chr(number)), end="")
