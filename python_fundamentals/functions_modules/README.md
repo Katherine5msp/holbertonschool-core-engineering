@@ -15,3 +15,9 @@ This project introduces Python functions and modular programming.
 
 ### 0. islower
 Implement a function that checks whether a character is a lowercase ASCII letter using ord().
+
+### 1. Uppercase
+Convert lowercase ASCII letters to uppercase using ord() and chr(), then print the result.
+
+### 2. Print Last Digit
+Print and return the last digit of an integer. The returned and printed digit must always be positive.
