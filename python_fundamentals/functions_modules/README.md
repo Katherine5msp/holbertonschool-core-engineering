@@ -21,3 +21,6 @@ Convert lowercase ASCII letters to uppercase using ord() and chr(), then print t
 
 ### 2. Print Last Digit
 Print and return the last digit of an integer. The returned and printed digit must always be positive.
+
+### 3. a ^ b
+Implement a function that returns a raised to the power of b using repeated multiplication in a loop.
