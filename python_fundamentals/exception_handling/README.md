@@ -20,3 +20,11 @@ The `safe_print_list_integers` function prints the first `x` elements
 of a list, displaying only integers and skipping other data types.
 It handles `IndexError`, `TypeError`, and `ValueError` exceptions
 and returns the number of integers successfully printed.
+
+## Task 3: Safe division
+
+The `safe_print_division` function divides two numbers using
+try and except to handle division by zero.
+The finally block always prints the result, whether the division
+succeeds or fails.
+The function returns the division result or None if division fails.
