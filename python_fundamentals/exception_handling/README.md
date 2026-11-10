@@ -7,3 +7,9 @@ This directory contains exercises on Python exception handling.
 The `safe_print_list` function prints a specified number of list elements,
 handles IndexError when the requested number exceeds the list length,
 and returns the number of elements successfully printed.
+
+## Task 1: Safe integer printing
+
+The `safe_print_integer` function attempts to print a value using
+integer formatting. It returns True if printing succeeds and False
+if the value cannot be formatted as an integer.
