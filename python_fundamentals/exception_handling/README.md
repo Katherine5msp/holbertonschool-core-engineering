@@ -28,3 +28,9 @@ try and except to handle division by zero.
 The finally block always prints the result, whether the division
 succeeds or fails.
 The function returns the division result or None if division fails.
+
+## Task 4: Raise exception
+
+The `raise_exception` function explicitly raises a TypeError
+using Python's raise statement.
+This task demonstrates how to trigger an exception intentionally.
