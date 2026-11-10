@@ -34,3 +34,9 @@ The function returns the division result or None if division fails.
 The `raise_exception` function explicitly raises a TypeError
 using Python's raise statement.
 This task demonstrates how to trigger an exception intentionally.
+
+## Task 5: Raise a message
+
+The `raise_exception_msg` function raises a NameError
+with a custom message provided as an argument.
+This task demonstrates how to attach messages to exceptions.
