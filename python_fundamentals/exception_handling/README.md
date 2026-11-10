@@ -13,3 +13,10 @@ and returns the number of elements successfully printed.
 The `safe_print_integer` function attempts to print a value using
 integer formatting. It returns True if printing succeeds and False
 if the value cannot be formatted as an integer.
+
+## Task 2: Safe integer list printing
+
+The `safe_print_list_integers` function prints the first `x` elements
+of a list, displaying only integers and skipping other data types.
+It handles `IndexError`, `TypeError`, and `ValueError` exceptions
+and returns the number of integers successfully printed.
