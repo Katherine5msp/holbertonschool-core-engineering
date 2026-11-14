@@ -1,4 +1,3 @@
-
 # Python - Abstract Classes & Interfaces
 
 This directory contains exercises exploring abstract base
@@ -26,3 +25,19 @@ these methods using their respective geometric formulas.
 The `shape_info()` function demonstrates duck typing
 by calling the required methods without checking
 the object's class.
+
+
+
+## Task 2: The Enigmatic FlyingFish
+
+The `flyingfish.py` module demonstrates multiple
+inheritance using the `Fish`, `Bird`, and `FlyingFish`
+classes.
+
+`FlyingFish` inherits from both parent classes and
+overrides their methods to define its own swimming,
+flying, and habitat behaviors.
+
+The task also demonstrates Python's Method Resolution
+Order (MRO), which determines the order in which
+inherited methods are searched.
