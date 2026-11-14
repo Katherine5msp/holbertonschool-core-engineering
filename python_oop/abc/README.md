@@ -57,3 +57,19 @@ defines its own `roar()` method.
 
 This demonstrates how mixins can combine independent
 capabilities without creating complex class hierarchies.
+
+
+## Task 4: Extending the Python List
+
+The `verboselist.py` module defines `VerboseList`,
+a subclass of Python's built-in `list` class.
+
+It overrides four methods:
+
+- `append()` announces when an item is added.
+- `extend()` reports how many items were added.
+- `remove()` announces the item being removed.
+- `pop()` announces and returns the removed item.
+
+The class uses `super()` to preserve the original
+list operations while adding notification messages.
