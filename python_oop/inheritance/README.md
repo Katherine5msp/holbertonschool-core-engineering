@@ -54,3 +54,38 @@ Method overriding allows subclasses to customize inherited methods.
 
 Polymorphism allows different objects to respond to the same
 method call according to their class.
+
+## Task 1: Base Geometry
+File: `base_geometry.py`
+
+Defines BaseGeometry with an area method that raises an exception
+and a validator that accepts only positive integers.
+
+## Task 2: Rectangle
+File: `1-rectangle.py`
+
+Defines Rectangle as a subclass of BaseGeometry.
+Validates and stores private width and height attributes.
+
+## Task 3: Full Rectangle
+File: `2-rectangle.py`
+
+Implements rectangle area calculation and string representation.
+
+## Task 4: Square #1
+File: `1-square.py`
+
+Defines Square as a subclass of Rectangle, using one size value
+for both dimensions.
+
+## Task 5: Square #2
+File: `2-square.py`
+
+Customizes the square's string representation.
+
+## Concepts Learned
+
+- Inheritance and class hierarchies
+- Method overriding and polymorphism
+- Private attributes and name mangling
+- Input validation and exception handling
