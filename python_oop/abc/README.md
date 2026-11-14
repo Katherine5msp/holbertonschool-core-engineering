@@ -41,3 +41,19 @@ flying, and habitat behaviors.
 The task also demonstrates Python's Method Resolution
 Order (MRO), which determines the order in which
 inherited methods are searched.
+
+
+
+## Task 3: The Mystical Dragon - Mastering Mixins
+
+The `dragon.py` module demonstrates reusable behavior
+through mixin classes.
+
+`SwimMixin` provides the `swim()` method, while
+`FlyMixin` provides the `fly()` method.
+
+The `Dragon` class inherits from both mixins and
+defines its own `roar()` method.
+
+This demonstrates how mixins can combine independent
+capabilities without creating complex class hierarchies.
